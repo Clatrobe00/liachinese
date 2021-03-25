@@ -1,6 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link  } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavBar from './components/navbar';
 import Home from './components/Home';
 import Videos from './components/Videos';
