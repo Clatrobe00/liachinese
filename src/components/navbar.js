@@ -6,11 +6,11 @@ function NavBar () {
         <>
                 <div className='navbar'>
                     <div className='navbarContainer'>
+                        <Link to='/' className='navbarLogo'>
+                            Lia Liu Chinese
+                        </Link>
                         <ul className='menuList'>
                             <li className='menuItem'>
-                                <Link to='/' className='navbarLogo'>
-                                    Lia Liu Chinese
-                                </Link>
                             </li>
                         </ul>
                     </div>
