@@ -28,6 +28,11 @@ function NavBar () {
                                     Videos
                                 </Link>
                             </li>
+                            <li className='menuItem'>
+                                <Link to='/sign-up' className='navLink-mobile' onClick={closeMenu}>
+                                    Sign Up!
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </div>

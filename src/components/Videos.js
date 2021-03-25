@@ -1,8 +1,8 @@
 function Videos () {
     return (
-        <h2>
+        <>
             Videos
-        </h2>
+        </>
     )
 };
 
