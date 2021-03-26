@@ -11,14 +11,10 @@ function App() {
     <div className="App">
           <Router>
             < NavBar />
-            <Switch>
-              <Route path='/'>
-                <Home />
-              </Route>
-              <Route path='/videos'>
-                <Videos />
-              </Route>
-            </Switch>   
+            <div>
+              <Route exact path='/' component={Home}/>
+              <Route exact path='/videos' component={Videos}/>
+            </div>   
           </Router>
           
 
