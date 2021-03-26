@@ -48,7 +48,11 @@ function NavBar () {
         <div>
 
             <ul className="nav nav-tabs">
-                <li className="nav-title">Lia Liu Chinese</li>
+                <li className="nav-item">
+                <Link to="/" className="nav-title">
+                    Lia Liu Chinese
+                </Link>
+                </li>        
                 <li className="nav-item">
                 <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
                     Home

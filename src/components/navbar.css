@@ -1,9 +1,28 @@
 .nav-title {
-    padding: 8px 20px;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 30px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.nav-title:hover {
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 30px;
+    color: black;
+    text-decoration: none !important;
 }
 
 .nav-link {
     color: black;
+}
+
+.nav-link:hover {
+    color: black;
+    text-decoration: none;
 }
 
 .active {
