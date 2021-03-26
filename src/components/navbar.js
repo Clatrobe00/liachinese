@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import './navbar.css';
 
 // function NavBarPractice () {
 //     const [click, setClick] =  useState(false);
@@ -44,19 +45,23 @@ function NavBar () {
     const location = useLocation()
 
     return (
-        <ul className="nav nav-tabs">
-        <li className="nav-item">
-          <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
-            Home
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/videos" className={location.pathname === "/videos" ? "nav-link active" : "nav-link"}
-          >
-            Videos
-          </Link>
-        </li>
-      </ul>
+        <div>
+
+            <ul className="nav nav-tabs">
+                <li className="nav-title">Lia Liu Chinese</li>
+                <li className="nav-item">
+                <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+                    Home
+                </Link>
+                </li>
+                <li className="nav-item">
+                <Link to="/videos" className={location.pathname === "/videos" ? "nav-link active" : "nav-link"}
+                >
+                    Videos
+                </Link>
+                </li>
+            </ul>
+        </div>    
     )
 }
 

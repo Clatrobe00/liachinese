@@ -1,0 +1,11 @@
+.nav-title {
+    padding: 8px 20px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.active {
+    color: magenta !important;
+}
