@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavBar from './components/navbar';
 import Home from './components/Home';
 import Videos from './components/Videos';
+import SignUpCard from './components/SignUpCard'
 
 function App() {
   return (
@@ -23,7 +24,9 @@ function App() {
               <Route exact path='/videos' component={Videos}/>
             </div>  
           </Col>
-          <Col>3 of 3</Col>
+          <Col>
+            <SignUpCard />
+          </Col>
         </Row>
       </Container>
      
