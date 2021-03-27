@@ -18,7 +18,7 @@ function App() {
       <Container>
         <Row>
           <Col>1 of 3</Col>
-          <Col>        
+          <Col xs={8}>        
             <div>
               <Route exact path='/' component={Home}/>
               <Route exact path='/videos' component={Videos}/>
