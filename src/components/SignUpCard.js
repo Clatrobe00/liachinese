@@ -1,22 +1,23 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
+import { Link } from 'react';
 import { Card, Button } from 'react-bootstrap';
 
 function SignUpCard () {
     return (
-        <>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img src="../../public/logo192.png" height='100%' width='100%' alt="Lia Profile Picture" />
-                <Card.ImgOverlay>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                </Card.ImgOverlay>
-            </Card>
-        </>
+        <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" src="../../public/photos/LiaProf.png" />
+            <Card.Body>
+                <Card.Title>Want to learn Chinese?</Card.Title>
+                <Card.Text>
+                    Send me a quick message and we can set something up!
+                </Card.Text>
+                {/* <Link to="/signup"> */}
+                    <Button variant="primary">Sign Up Here</Button>
+                {/* </Link> */}
+
+            </Card.Body>
+        </Card>
     )
 }
 

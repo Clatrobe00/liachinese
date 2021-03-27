@@ -5,7 +5,8 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavBar from './components/navbar';
 import Home from './components/Home';
 import Videos from './components/Videos';
-import SignUpCard from './components/SignUpCard'
+import SignUpCard from './components/SignUpCard';
+import SignUp from './components/SignUp';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <div>
               <Route exact path='/' component={Home}/>
               <Route exact path='/videos' component={Videos}/>
+              <Route exact path='/signup' component={SignUp}/>
             </div>  
           </Col>
           <Col xs={3}>

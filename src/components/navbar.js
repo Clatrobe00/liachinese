@@ -64,6 +64,12 @@ function NavBar () {
                     Videos
                 </Link>
                 </li>
+                <li className="nav-item">
+                <Link to="/signup" className={location.pathname === "/signup" ? "nav-link active" : "nav-link"}
+                >
+                    Sign Up
+                </Link>
+                </li>
             </ul>
         </div>    
     )
