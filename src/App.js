@@ -17,14 +17,14 @@ function App() {
       </div>
       <Container>
         <Row>
-          <Col>1 of 3</Col>
-          <Col xs={8}>        
+          <Col xs={3}>1 of 3</Col>
+          <Col xs={6}>        
             <div>
               <Route exact path='/' component={Home}/>
               <Route exact path='/videos' component={Videos}/>
             </div>  
           </Col>
-          <Col>
+          <Col xs={3}>
             <SignUpCard />
           </Col>
         </Row>
