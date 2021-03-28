@@ -2,14 +2,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import { Link } from 'react';
 import { Card, Button } from 'react-bootstrap';
+import image from '../assets/LiaProf.png'
 
 function SignUpCard () {
     return (
         <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="../../public/photos/LiaProf.png" />
-            <Card.Body>
-                <Card.Title>Want to learn Chinese?</Card.Title>
-                <Card.Text>
+            <Card.Img variant="top" src={image} />
+            <Card.ImgOverlay>
+                <Card.Title className='card-text'>Want to learn Chinese?</Card.Title>
+                <Card.Text className='card-text'>
                     Send me a quick message and we can set something up!
                 </Card.Text>
                 <div>
@@ -18,7 +19,7 @@ function SignUpCard () {
                 </Link>  */}
                 </div>
 
-            </Card.Body>
+            </Card.ImgOverlay>
         </Card>
     )
 }
