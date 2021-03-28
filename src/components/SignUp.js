@@ -1,9 +1,43 @@
 import React from 'react';
+import Form from 'react-bootstrap/Form';
+import Col from 'react-bootstrap/Col';
 
 function SignUp () {
     return (
         <div>
-            Sign up form!
+            <Form>
+                <h3>Interested in learning Chinese? Fill out the form below and we can get started!</h3>
+                <Form.Group>
+                    <Form.Label column sm="2">
+                    Your Name
+                    </Form.Label>
+                    <Col sm="10">
+                    <Form.Control placeholder="Your name here" />
+                    </Col>
+                </Form.Group>
+
+                <Form.Group controlId="formPlaintextPassword">
+                    <Form.Label column sm="2">
+                    Your Email
+                    </Form.Label>
+                    <Col sm="10">
+                    <Form.Control type="email" placeholder="your@email.here" />
+                    </Col>
+                </Form.Group>
+                <Form.Group>
+                    <h4>What are you interested in?</h4>
+                    
+                    {['Chinese Lessons', 'FREE Chinese Learning Materials'].map((i) => (
+                        <div key={i} className="mb-3">
+                        <Form.Check 
+                            type='checkbox'
+                            id={`checkbox-${i}`}
+                            label={`${i}`}
+                        />
+                        </div>
+                    ))}
+                </Form.Group>
+            </Form>
         </div>
     )
 }
