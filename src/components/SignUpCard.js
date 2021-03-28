@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react';
 import { Card, Button } from 'react-bootstrap';
 import image from '../assets/LiaProf.png'
+import './SignUpCard.css';
 
 function SignUpCard () {
     return (
