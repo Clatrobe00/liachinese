@@ -1,13 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { Container, Row, Col, Jumbotron} from 'react-bootstrap';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavBar from './components/navbar';
 import Layout from './components/Layout';
 import SignUp from './components/SignUp';
 import Home from './components/Home';
 import Videos from './components/Videos';
-import SignUpCard from './components/SignUpCard';
+import JumbotronCustom from './components/Jumbotron'
+// import SignUpCard from './components/SignUpCard';
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
     <Router>
       <div className="App">
         < NavBar />
-        <Jumbotron />
+        <JumbotronCustom />
       </div>
       <Layout>
         {/* <Row> */}
