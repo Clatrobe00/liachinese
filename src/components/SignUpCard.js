@@ -12,9 +12,11 @@ function SignUpCard () {
                 <Card.Text>
                     Send me a quick message and we can set something up!
                 </Card.Text>
-                {/* <Link to="/signup"> */}
-                    <Button variant="primary">Sign Up Here</Button>
-                {/* </Link> */}
+                <div>
+                {/* <Link to="/signup" role="button" className="btn btn-primary">
+                    Sign Up Here
+                </Link>  */}
+                </div>
 
             </Card.Body>
         </Card>

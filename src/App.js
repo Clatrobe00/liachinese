@@ -3,10 +3,12 @@ import './App.css';
 import { Container, Row, Col} from 'react-bootstrap';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavBar from './components/navbar';
+import Layout from './components/Layout';
+import SignUp from './components/SignUp';
 import Home from './components/Home';
 import Videos from './components/Videos';
 import SignUpCard from './components/SignUpCard';
-import SignUp from './components/SignUp';
+
 
 function App() {
   return (
@@ -16,7 +18,7 @@ function App() {
       <div className="App">
         < NavBar />
       </div>
-      <Container>
+      <Layout>
         <Row>
           <Col xs={3}>1 of 3</Col>
           <Col xs={6}>        
@@ -27,10 +29,10 @@ function App() {
             </div>  
           </Col>
           <Col xs={3}>
-            <SignUpCard />
+            <Route exact path={['/', '/videos']} component={SignUpCard}/>
           </Col>
         </Row>
-      </Container>
+      </Layout>
      
     </Router>
   </>
