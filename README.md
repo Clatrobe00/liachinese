@@ -11,6 +11,8 @@ This is a website for Lia Liu Chinese built with react and react-bootstrap.
 * [Deployment](#deployment)
       
 * [Usage](#usage)
+
+* [Future Features](#futureFeatures)
       
 * [Contributing](#contributing)
       
