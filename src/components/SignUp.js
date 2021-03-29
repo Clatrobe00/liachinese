@@ -1,6 +1,7 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
+import Button from './Button';
 
 function SignUp () {
     return (
@@ -26,7 +27,7 @@ function SignUp () {
                 </Form.Group>
                 <Form.Group>
                     <h4>What are you interested in?</h4>
-                    
+
                     {['Chinese Lessons', 'FREE Chinese Learning Materials'].map((i) => (
                         <div key={i} className="mb-3">
                         <Form.Check 
@@ -37,6 +38,9 @@ function SignUp () {
                         </div>
                     ))}
                 </Form.Group>
+                <Button>
+                    Submit
+                </Button>
             </Form>
         </div>
     )
