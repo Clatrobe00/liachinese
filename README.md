@@ -18,7 +18,7 @@ This is a website for Lia Liu Chinese built with react and react-bootstrap.
 
 * [License](#license)
       
-## Installation
+## Deployment
 
 This application is live and deployed at: https://lia-liu-chinese.herokuapp.com/
       
