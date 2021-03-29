@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import { Link } from 'react';
 import { Card, Button } from 'react-bootstrap';
-import image from '../assets/LiaProf.png'
+import image from '../assets/cropProf.png'
 import './SignUpCard.css';
 
 function SignUpCard () {
