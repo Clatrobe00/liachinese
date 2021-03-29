@@ -40,6 +40,7 @@ function App() {
           </Col> */}
         {/* </Row> */}
       </Layout>
+      <JumbotronCustom />
      
     </Router>
   </>
