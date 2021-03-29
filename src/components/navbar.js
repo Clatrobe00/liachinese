@@ -65,7 +65,7 @@ function NavBar () {
                 </Link>
                 </li>
                 <li className="nav-item">
-                <Link to="/signup" className={location.pathname === "/signup" ? "nav-link active" : "nav-link"}
+                <Link to="/sign-up" className={location.pathname === "/sign-up" ? "nav-link active" : "nav-link"}
                 >
                     Sign Up
                 </Link>

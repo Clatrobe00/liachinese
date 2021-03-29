@@ -26,7 +26,7 @@ function App() {
             <div>
               <Route exact path='/' component={Home}/>
               <Route exact path='/videos' component={Videos}/>
-              <Route exact path='/signup' component={SignUp}/>
+              <Route exact path='/sign-up' component={SignUp}/>
             </div>  
           {/* </Col> */}
           {/* <Col xs={3}>

@@ -1,8 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import { Link } from 'react';
-import { Card, Button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import image from '../assets/cropProf.png'
+import Button from './Button';
 import './SignUpCard.css';
 
 function SignUpCard () {
@@ -15,9 +15,9 @@ function SignUpCard () {
                     Send me a quick message and we can set something up!
                 </Card.Text>
                 <div>
-                {/* <Link to="/signup" role="button" className="btn btn-primary">
-                    Sign Up Here
-                </Link>  */}
+                    <Button>
+                        Sign-up
+                    </Button>
                 </div>
 
             </Card.ImgOverlay>
