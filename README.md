@@ -28,11 +28,11 @@ Through this website, the user will be able to view Lia's Chinese educational co
 
 ## Future Features
 
--Functional Submission Form that allows user to send information to Liu.
--Fleshed out video page that allows user to view a range of video series from Lia Liu.
--Improved Styling.
--A footer component with links to Lia Liu's social media.
--A calendar function that allows the user to select their preferred class times from Lia's availability.
+* Functional Submission Form that allows user to send information to Liu.
+* Fleshed out video page that allows user to view a range of video series from Lia Liu.
+* Improved Styling.
+* A footer component with links to Lia Liu's social media.
+* A calendar function that allows the user to select their preferred class times from Lia's availability.
         
 ## Contributing
 
