@@ -6,7 +6,9 @@ import Layout from './components/Layout';
 import SignUp from './components/SignUp';
 import Home from './components/Home';
 import Videos from './components/Videos';
-import JumbotronCustom from './components/Jumbotron'
+import JumbotronCustom from './components/Jumbotron';
+import HeaderLayout from './components/HeaderLayout';
+import bannerImage from './assets/lanterns-banner.png';
 // import SignUpCard from './components/SignUpCard';
 
 
@@ -17,7 +19,11 @@ function App() {
     <Router>
       <div className="App">
         < NavBar />
-        <JumbotronCustom />
+        <JumbotronCustom image={bannerImage}>
+          <Layout>
+            <HeaderLayout />
+          </Layout>
+        </JumbotronCustom>
       </div>
       <Layout>
         {/* <Row> */}
